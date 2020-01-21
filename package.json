@@ -1,15 +1,11 @@
 {
-  "name": "udemyserverless1",
+  "name": "aws-rest-with-dynamodb",
   "version": "1.0.0",
-  "description": "",
-  "main": "handler.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "local-server": "serverless offline"
-  },
+  "description": "Serverless CRUD service exposing a REST HTTP interface",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
+    "uuid": "^2.0.3",
     "serverless-offline": "^5.12.1"
   }
 }
